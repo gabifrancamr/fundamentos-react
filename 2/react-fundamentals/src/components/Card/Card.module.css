@@ -1,0 +1,46 @@
+.card {
+    margin-top: 20px;
+    background-color: #836FFF;
+    display: flex;
+    width: 750px;
+    padding: 35px;
+    border-radius: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.card img {
+    width: 200px;
+    border: 4px solid #000;
+    box-shadow: 0 24px 32px -16px rgba(0,0,0,0.8);
+}
+
+.content {
+    margin-left: 35px;
+    text-align: left;
+    padding: 10px;
+}
+
+.content h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.content p {
+    line-height: 1.5rem;
+}
+
+.content button {
+    margin-top: 40px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #000;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.content button:hover {
+    cursor: pointer;
+    margin-left: .5rem;
+}

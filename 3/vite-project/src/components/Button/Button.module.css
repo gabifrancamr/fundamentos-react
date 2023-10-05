@@ -1,0 +1,19 @@
+.button {
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 10px 0px;
+    max-width: 130px;
+    display: grid;
+    place-content: center;
+}
+
+a{
+    text-decoration: none;
+}
